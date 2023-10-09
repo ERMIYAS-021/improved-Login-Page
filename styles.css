@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Questrial', sans-serif;
+}
+body {
+    min-height: 100vh;
+    background-image: url("image/compute-ea4c57a4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bar {
+    width: 100px;
+    height: 300px;
+    /* background-color: rgba(3, 7, 17, 0.959);  */
+    background-image: url("image/compute-ea4c57a4.png");
+    position: absolute;
+    top: 425px;
+    left: -11px;
+    border-radius: 50px;
+}
+
+.circle {
+    width: 100px;
+    height: 300px;
+    /* background-color: rgba(3, 7, 17, 0.959);  */
+    background-image: url("image/compute-ea4c57a4.png");
+    position: absolute;
+    /* top: -82px; */
+    top: -117px;
+    left: -9px;
+    transform: rotate(45deg);
+    border-radius: 50px;
+}
+
+.rotate45 {
+    transform: rotate(-45deg);
+}
+
+.flex-container {
+   max-width: 350px;
+   position: absolute;
+   width: 100%;
+   height: 550px;
+   /* background-color: rgb(214, 209, 209); */
+   background-color: #151019;
+   padding: 30px;
+   border-radius: 25px;
+   box-shadow: 0 0 45px rgb(0, 0, 0);
+   overflow: hidden;
+   border: none
+
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-weight: bolder;
+    color: #6a99c4;
+    font-size: 37px;
+    margin-bottom: -20px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10em;
+    justify-self: center;
+    align-items: center;
+    
+}
+
+.inputs {
+    width: 82%;
+    padding: 15px;
+    padding-left: 39px;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    background-color: rgba(226, 235, 243, 0.658);
+    border-radius: 20px;
+    color: #151019;
+    font-weight: 600;
+    
+}
+
+::placeholder {
+    color: black;
+    font-weight: 500;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 51px;
+    left: -140px;
+    padding-right: 25px;
+    padding-left: 10px;
+}
+
+img, #one {
+    margin-top: -40px;
+}
+
+#submit {
+    width: 45%;
+    padding:15px;
+    border-radius: 20px;
+    border: 1.5px solid rgb(6, 34, 25);
+    background-color: #273649;
+    color: rgb(252, 255, 214);
+    font-weight: 800;
+    margin-top: 37px;
+    box-shadow: 0 0 18px #000000;
+}
+
+a {
+    position: relative;
+    right: -75px;
+    text-decoration: none;
+    color: #6a99c4a6;
+}
+
